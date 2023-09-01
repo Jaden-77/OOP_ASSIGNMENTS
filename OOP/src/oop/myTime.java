@@ -10,10 +10,10 @@ package oop;
  * @author User
  */
 public class myTime {
-    int hours;
-    int minutes;
-    int seconds;
-    boolean meridean;
+   public int hours;
+   public int minutes;
+   public int seconds;
+   public boolean meridean;
     
     public myTime(int hours, int minutes, int seconds, boolean meridean) {
         this.hours = hours;
