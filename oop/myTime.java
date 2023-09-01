@@ -22,7 +22,39 @@ public class myTime {
         this.meridean = meridean;
     }
 
-    // Getter and setter methods for hours, minutes, seconds, and meridean
+     public int getHours() {
+        return hours;
+    }
+
+    public int getMinutes() {
+        return minutes;
+    }
+
+    public int getSeconds() {
+        return seconds;
+    }
+
+    public boolean isMeridean() {
+        return meridean;
+    }
+
+    // Setter methods
+    public void setHours(int hours) {
+        this.hours = hours;
+    }
+
+    public void setMinutes(int minutes) {
+        this.minutes = minutes;
+    }
+
+    public void setSeconds(int seconds) {
+        this.seconds = seconds;
+    }
+
+    public void setMeridean(boolean meridean) {
+        this.meridean = meridean;
+    }
+
     
     public void advanceTime(int seconds) {
         int totalSeconds = this.seconds + seconds;
