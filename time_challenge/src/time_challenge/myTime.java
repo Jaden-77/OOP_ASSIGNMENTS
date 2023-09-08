@@ -2,10 +2,10 @@ package time_challenge;
 
 public class myTime {
 	
-	 public int hours;
-     public int minutes;
-     public int seconds;
-     public boolean meridean;
+     private int hours;
+     private int minutes;
+     private int seconds;
+     private boolean meridean;
 
       public myTime(int hours, int minutes, int seconds, boolean meridean) {
           this.hours = hours;
