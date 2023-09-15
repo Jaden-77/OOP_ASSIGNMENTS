@@ -21,7 +21,7 @@ public class EmployeeProject {
         HourlyEmployee employee = new HourlyEmployee();
         
         employee.setEmpID(1);
-        employee.setEmpName("John Doe");
+        employee.setEmpName("John");
         employee.setEmpDateHired(hireDate);
         employee.setEmpBirthDate(birthDate);
         employee.setTotalHoursWorked(45);
@@ -40,7 +40,7 @@ public class EmployeeProject {
         PieceWorkerEmployee WEmployee = new PieceWorkerEmployee();
         
         WEmployee.setEmpID(1);
-        WEmployee.setEmpName("Joey");
+        WEmployee.setEmpName("Jaden");
         WEmployee.setEmpDateHired(hireDate);
         WEmployee.setEmpBirthDate(birthDate);
         WEmployee.setTotalPiecesFinished(2);
@@ -51,7 +51,7 @@ public class EmployeeProject {
         CommissionEmployee CEmployee = new CommissionEmployee();
         
         CEmployee.setEmpID(3);
-        CEmployee.setEmpName("JAhw");
+        CEmployee.setEmpName("Jones");
         CEmployee.setEmpDateHired(hireDate);
         CEmployee.setEmpBirthDate(birthDate);
         CEmployee.setTotalSales(40);
@@ -61,7 +61,7 @@ public class EmployeeProject {
         BasePlusCommissionEmployee BPCEmployee = new BasePlusCommissionEmployee();
         
         BPCEmployee.setEmpID(4);
-        BPCEmployee.setEmpName("sennr");
+        BPCEmployee.setEmpName("Sam");
         BPCEmployee.setEmpDateHired(hireDate);
         BPCEmployee.setEmpBirthDate(birthDate);
         BPCEmployee.setBaseSalary(1999);
